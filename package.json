@@ -1,0 +1,44 @@
+{
+  "name": "vite-spa-template",
+  "version": "1.0.0",
+  "description": "A project template for single page application with Vite",
+  "scripts": {
+    "dev": "vite serve",
+    "build": "vite build",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackie-gan/vite-spa-template.git"
+  },
+  "author": "jackie-gan",
+  "bugs": {
+    "url": "https://github.com/jackie-gan/vite-spa-template/issues"
+  },
+  "homepage": "https://github.com/jackie-gan/vite-spa-template#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@types/eslint": "^8.4.3",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vitejs/plugin-vue-jsx": "^1.3.10",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "husky": "^7.0.4",
+    "postcss-url": "^10.1.3",
+    "prettier": "^2.7.1",
+    "sass": "^1.53.0",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.12",
+    "vite-plugin-eslint": "^1.6.1",
+    "vue-eslint-parser": "^9.0.3"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  }
+}
